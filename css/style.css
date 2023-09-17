@@ -491,3 +491,63 @@ margin-right: 120px;
 .list-social-net-icon-footer:focus {
     background-color: #31d0aa;
 }
+
+.social-media {
+    margin-right: 80px;
+}
+
+.subscribe-footer {
+    margin-right: 24px;
+}
+
+.text-subscribe {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color-light);
+    margin-bottom: 16px;
+}
+
+.text-email {
+    color: var(--main-color-light);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding: 8px 212px 8px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--main-color-light);
+}
+
+.subscribe-button {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--logo-button-color);
+    color: var(--main-color-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--logo-button-color);
+    color: var(--main-color-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 4px;
+}
