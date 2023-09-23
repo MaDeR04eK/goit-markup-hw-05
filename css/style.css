@@ -701,6 +701,9 @@ margin-right: 120px;
 }
 
 .text-checkbox-span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -708,13 +711,11 @@ margin-right: 120px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.modal-checkbox:checked + .text-checkbox-span {
+.modal-checkbox:checked + .text-checkbox .text-checkbox-span {
     background-color: var(--hover-focus);
     border: none;
     fill: #f4f4fd;
