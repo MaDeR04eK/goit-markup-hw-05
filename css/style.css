@@ -648,7 +648,7 @@ margin-right: 120px;
     min-width: 360px;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid var(--main-color-dark, rgba(46, 47, 66, 0.40));
+    border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
     width: 100%;
     background-color: transparent;
