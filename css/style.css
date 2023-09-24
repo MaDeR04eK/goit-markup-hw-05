@@ -152,8 +152,7 @@ color: var(--hover-focus);
 
 .section-main {
     background-color: var(--main-color-dark);
-    background-image: url(/images/bg-section-one.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/bg-section-one.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bg-section-one.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
