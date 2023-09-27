@@ -1,0 +1,52 @@
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .goals-list-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-goals-icon {
+        display: flex;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+
+    .goals-title {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin: 8px 0;
+        text-align: start;
+    }
+
+    .goals-text {
+        font-weight: 400;
+    }
+}
+
