@@ -154,7 +154,7 @@ color: var(--hover-focus);
 
 .section-main {
     background-color: var(--main-color-dark);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bg-section-one.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero/bg-main_desk.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -312,7 +312,7 @@ width: 100%;
 
 .section-team{
     background-color: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .our-team{
@@ -328,12 +328,13 @@ width: 100%;
 
 .our-team-list {
     display: flex;
-    gap: 24px;
+    gap: 72px;
+    flex-direction: column;
 }
 
 .team-developers{
     background-color: var(--main-color-light);
-    width: calc((100% - 72px) / 4);
+    margin: 0 auto;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),

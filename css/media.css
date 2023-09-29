@@ -14,6 +14,28 @@
     .goals-list-item {
         flex-basis: calc((100% - 24px) / 2);
     }
+
+    .list-social-net {
+        flex-wrap: wrap;
+    }
+
+    .our-team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .team-developers {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .team-foto {
+        margin: 0 auto;
+    }
 }
 
 
