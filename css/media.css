@@ -36,6 +36,52 @@
     .team-foto {
         margin: 0 auto;
     }
+
+    .list-portfolio {
+        flex-direction: row;
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: center;
+    }
+
+    .image-portfolio {
+        width: 356px;
+        height: 300px;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        padding-left: 108px;
+        padding-right: 164px;
+        margin: 0 auto;
+    }
+
+    .container-logo {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .text-footer {
+        text-align: left;
+        max-width: 264px;
+    }
+
+    .text-title-footer {
+        text-align: left;
+    }
+
+    .social-media {
+        margin-bottom: 0;
+    }
+
+    .email-form-footer {
+        flex-direction: row;
+        gap: 24px;
+    }
+
 }
 
 
@@ -70,5 +116,13 @@
     .goals-text {
         font-weight: 400;
     }
-}
 
+    .image-portfolio {
+        width: 360px;
+        height: 300px;
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+}
