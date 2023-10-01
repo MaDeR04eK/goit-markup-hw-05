@@ -3,6 +3,40 @@
         max-width: 768px;
     }
 
+    .header {
+        min-width: 768px;
+    }
+
+    .header-container.container {
+        height: 72px;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .address-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-list {
+        margin-right: auto;
+    }
+
+    .site-contacts {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        gap: 0px;
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+
+    .icon-head-menu {
+        display: none;
+    }
+
     .section-main {
         padding: 112px 0;
         max-width: 768px;
@@ -108,6 +142,10 @@
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header-container.container {
+        height: 72px;
     }
 
     .section-main {
