@@ -125,4 +125,17 @@
     .footer {
         padding: 100px 0;
     }
+
+    .container-footer {
+        padding: 0 15px;
+        gap: 0;
+    }
+
+    .container-logo {
+        margin-right: 120px;
+    }
+
+    .email-foot {
+        margin-left: 80px;
+    }
 }
