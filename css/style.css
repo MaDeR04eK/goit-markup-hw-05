@@ -154,24 +154,27 @@ color: var(--hover-focus);
 
 .section-main {
     background-color: var(--main-color-dark);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero/bg-main_desk.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero/bg-main_mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;
+    padding: 72px 0;
     flex-shrink: 0;
-    max-width: 1440px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
 .main-title{
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color-light);
-    max-width: 496px;
+    max-width: 288px;
     flex-shrink: 0;
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .button-primary{
@@ -189,7 +192,7 @@ color: var(--hover-focus);
     background-color: var(--logo-button-color);
     border-radius: 4px;
     cursor: pointer;
-    margin: 48px auto 0 auto;
+    margin: 72px auto 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
