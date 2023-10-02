@@ -20,6 +20,10 @@
         display: flex;
     }
 
+    .tel-mail {
+        font-size: 12px;
+    }
+
     .address-header {
         display: flex;
         flex-direction: column;
@@ -34,7 +38,7 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 0;
-        gap: 12px;
+        gap: 0;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -45,7 +49,7 @@
 
     .section-main {
         padding: 112px 0;
-        max-width: 768px;
+        min-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
         rgba(46, 47, 66, 0.70)),
         url(../images/hero/bg-main_tab.jpg);
@@ -161,9 +165,13 @@
         margin-top: 0;
     }
 
+    .tel-mail {
+        font-size: 16px;
+    }
+
     .section-main {
         padding: 188px 0;
-        max-width: 1158px;
+        min-width: 1158px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
         rgba(46, 47, 66, 0.70)),
         url(../images/hero/bg-main_desk.jpg);
@@ -240,6 +248,6 @@
     .section-main {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
         rgba(46, 47, 66, 0.70)),
-        url(../images/hero/bg-main_tab@2x.jpg);
+        url(../images/hero/bg-main_desk@2x.jpg);
     }
 }
